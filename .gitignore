@@ -1,3 +1,11 @@
+# Secrets & configuration locale
+.env
+.env.local
+.env.*.local
+
+# Autorise l'exemple de configuration (bonne pratique)
+!.env.example
+
 # Python
 __pycache__/
 *.py[cod]
